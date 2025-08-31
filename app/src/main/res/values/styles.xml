@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/values/styles.xml -->
+<resources>
+
+    <!-- Base application theme -->
+    <style name="Theme.StopwatchApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorOnPrimary">@color/on_primary</item>
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorOnSecondary">@color/on_secondary</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+    <!-- Timer Text Style -->
+    <style name="TimerTextStyle">
+        <item name="android:textSize">56sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:textColor">@color/timer_text</item>
+        <item name="android:letterSpacing">0.05</item>
+        <item name="android:elevation">8dp</item>
+    </style>
+
+    <!-- Milliseconds Text Style -->
+    <style name="MillisecondsTextStyle">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:textColor">@color/milliseconds_text</item>
+    </style>
+
+    <!-- Button Base Style -->
+    <style name="StopwatchButtonStyle" parent="Widget.Material3.Button">
+        <item name="android:layout_height">72dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="cornerRadius">24dp</item>
+        <item name="android:elevation">8dp</item>
+        <item name="strokeWidth">0dp</item>
+        <item name="iconGravity">textStart</item>
+        <item name="iconPadding">8dp</item>
+        <item name="iconSize">24dp</item>
+        <item name="iconTint">@android:color/white</item>
+        <item name="android:stateListAnimator">@animator/button_press_animator</item>
+    </style>
+
+    <!-- Start Button Style -->
+    <style name="StartButtonStyle" parent="StopwatchButtonStyle">
+        <item name="backgroundTint">@color/start_button</item>
+        <item name="rippleColor">@color/start_button_ripple</item>
+    </style>
+
+    <!-- Stop Button Style -->
+    <style name="StopButtonStyle" parent="StopwatchButtonStyle">
+        <item name="backgroundTint">@color/stop_button</item>
+        <item name="rippleColor">@color/stop_button_ripple</item>
+    </style>
+
+    <!-- Reset Button Style -->
+    <style name="ResetButtonStyle" parent="StopwatchButtonStyle">
+        <item name="backgroundTint">@color/reset_button</item>
+        <item name="rippleColor">@color/reset_button_ripple</item>
+    </style>
+
+    <!-- Material Card Style -->
+    <style name="TimerCardStyle" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardCornerRadius">32dp</item>
+        <item name="cardElevation">16dp</item>
+        <item name="cardBackgroundColor">@color/card_background</item>
+        <item name="strokeWidth">0dp</item>
+    </style>
+
+    <!-- FAB Style -->
+    <style name="StopwatchFabStyle" parent="Widget.Material3.FloatingActionButton.Primary">
+        <item name="backgroundTint">@color/fab_background</item>
+        <item name="tint">@android:color/white</item>
+        <item name="elevation">12dp</item>
+        <item name="borderWidth">0dp</item>
+        <item name="rippleColor">@color/fab_ripple</item>
+    </style>
+
+</resources>

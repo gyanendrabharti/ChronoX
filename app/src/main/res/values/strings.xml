@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ChronoX</string>
+    <string name="timerformat">00:00:00</string>
+    <string name="_00">.00</string>
+    <string name="start">START</string>
+    <string name="stop">STOP</string>
+    <string name="reset">RESET</string>
+    <string name="floating">floating</string>
+</resources>

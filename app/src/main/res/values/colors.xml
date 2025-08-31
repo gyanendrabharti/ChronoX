@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/values/colors.xml -->
+<resources>
+    <!-- Material 3 Colors -->
+    <color name="primary">#6750A4</color>
+    <color name="on_primary">#FFFFFF</color>
+    <color name="secondary">#625B71</color>
+    <color name="on_secondary">#FFFFFF</color>
+
+    <!-- Background Colors -->
+    <color name="card_background">#FFFFFF</color>
+    <color name="card_background_dark">#1E1E1E</color>
+
+    <!-- Timer Display Colors -->
+    <color name="timer_text">#1C1B1F</color>
+    <color name="timer_text_dark">#E6E1E5</color>
+    <color name="milliseconds_text">#49454F</color>
+    <color name="milliseconds_text_dark">#CAC4D0</color>
+
+    <!-- Button Colors -->
+    <color name="start_button">#4CAF50</color>
+    <color name="start_button_dark">#2E7D32</color>
+    <color name="start_button_ripple">#81C784</color>
+
+    <color name="stop_button">#F44336</color>
+    <color name="stop_button_dark">#C62828</color>
+    <color name="stop_button_ripple">#EF5350</color>
+
+    <color name="reset_button">#FF9800</color>
+    <color name="reset_button_dark">#E65100</color>
+    <color name="reset_button_ripple">#FFB74D</color>
+
+    <!-- FAB Colors -->
+    <color name="fab_background">#6750A4</color>
+    <color name="fab_ripple">#9575CD</color>
+
+    <!-- Pulse Animation Color -->
+    <color name="pulse_color">#4CAF50</color>
+
+    <!-- Surface Colors -->
+    <color name="surface">#FFFBFE</color>
+    <color name="on_surface">#1C1B1F</color>
+
+    <!-- Gradient Colors -->
+    <color name="gradient_start">#667eea</color>
+    <color name="gradient_end">#764ba2</color>
+</resources>
